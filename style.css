@@ -1,0 +1,59 @@
+header{
+    background-color: black;
+}
+
+#brand-title{
+    color:white
+}
+
+nav{
+    list-style-type: none; 
+}
+
+.nav-bar, .nav-link{
+    display: inline;
+    text-align:center;
+    padding-bottom: 40px;
+}
+
+#background-image{ 
+    height: 350px;
+    width: 1500px;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color:white;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#chicago-map{
+    height: 200px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+a:hover {
+    color:red
+}
+
+main{
+    background-color: white;
+}
+
+#featured-show{
+    background-color: black;
+    margin-bottom: 0px;
+}
