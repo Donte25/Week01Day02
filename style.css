@@ -2,18 +2,19 @@ header{
     background-color: black;
 }
 
+
 #brand-title{
-    color:white
+    color:white;
 }
 
 nav{
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .nav-bar, .nav-link{
     display: inline;
     text-align:center;
-    padding-bottom: 40px;
+    padding-left: 50px;
 }
 
 #background-image{ 
@@ -27,12 +28,6 @@ body{
 
 h1{
     color:white;
-}
-
-.flexbox-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 #chicago-map{
@@ -53,7 +48,22 @@ main{
     background-color: white;
 }
 
+#date {
+    background-color: whitesmoke;
+    border-color: black;
+}
+
 #featured-show{
     background-color: black;
     margin-bottom: 0px;
 }
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px ;
+    align-content: flex-start;
+}
+
